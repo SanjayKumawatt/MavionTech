@@ -56,10 +56,7 @@ const App = () => {
           path: "/services/web-dev",
           element: <WebDev />
         },
-        {
-          path: "/services/business-emails",
-          element: <BusinessEmails />
-        },
+        
         {
           path: "/products/ms365-basic",
           element: <Ms365Basic />

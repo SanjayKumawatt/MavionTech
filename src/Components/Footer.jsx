@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, MapPin } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   // Quick Links
   const quickLinks = [
     { name: 'Home', path: '/' },
@@ -25,17 +26,20 @@ const Footer = () => {
   return (
     <footer className="bg-[#022c22] text-slate-300 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/10">
-          
+
           {/* 1. Logo */}
           <div>
-            <div className="flex flex-col mb-4 cursor-pointer">
-              <h1 className="text-3xl font-bold tracking-tighter text-white">
-                <span className="text-green-500">MAVION</span>TECH
-              </h1>
-              <span className="text-xs tracking-widest text-slate-400 -mt-1 uppercase">Private Limited</span>
+            <div className='flex gap-2'>
+              <img src={logo} alt="" className='h-10' />
+              <div className="flex flex-col mb-4 cursor-pointer">
+                <h1 className="text-3xl flex gap-1 font-bold tracking-tighter text-white">
+                  <span className="text-green-500">MAVION</span>TECH
+                </h1>
+                <span className="text-xs tracking-widest text-slate-400 -mt-1 uppercase">Private Limited</span>
+              </div>
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Empowering your business with innovative technology solutions and expert consulting for guaranteed digital growth.
@@ -48,8 +52,8 @@ const Footer = () => {
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
-                  <Link 
-                    to={link.path} 
+                  <Link
+                    to={link.path}
                     className="text-sm hover:text-green-500 transition-colors duration-200"
                   >
                     {link.name}
@@ -65,8 +69,8 @@ const Footer = () => {
             <ul className="space-y-3">
               {serviceLinks.map((link) => (
                 <li key={link.name}>
-                  <Link 
-                    to={link.path} 
+                  <Link
+                    to={link.path}
                     className="text-sm hover:text-green-500 transition-colors duration-200"
                   >
                     {link.name}

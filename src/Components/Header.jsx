@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, ChevronDown, ChevronRight, User } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Header = () => {
                 { name: 'SEO & Branding', path: '/services/seo-branding' },
                 { name: 'Domain & Web Hosting', path: '/services/hosting' },
                 { name: 'Web Design & Development', path: '/services/web-dev' },
-                { name: 'Business Emails', path: '/services/business-emails' },
+                
             ],
         },
         {
@@ -59,6 +60,7 @@ const Header = () => {
                     {/* 1. Logo Section */}
                     <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
                         {/* Logo Placeholder - Replace with your <img src="" /> */}
+                        <img src={logo} alt="" className='h-10' />
                         <div className="flex flex-col">
                             <h1 className="text-2xl font-bold tracking-tighter text-slate-800">
                                 <span className="text-green-600">MAVION </span> TECH
