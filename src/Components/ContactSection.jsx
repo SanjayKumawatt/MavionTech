@@ -26,7 +26,7 @@ const ContactSection = () => {
     "Domain & Web Hosting",
     "Web Design & Development",
     "Business Emails",
-    "Microsoft 365"
+    
   ];
 
   // Form Submit Handler (NO ALERT)

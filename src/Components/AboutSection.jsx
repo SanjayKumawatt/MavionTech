@@ -44,7 +44,7 @@ const AboutSection = () => {
 
             {/* Main Headline */}
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6">
-              A Digital Agency that delivers guaranteed business growth
+              A Digital Startup that delivers guaranteed business growth
             </h2>
 
             {/* Secondary Small Image (Passion Never Fails) */}

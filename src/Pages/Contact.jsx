@@ -23,7 +23,7 @@ const ContactSection = () => {
     "Logo & Branding", "Website Design", "Web Development", "Mobile App Dev",
     "CRM Software", "Digital Strategy", "Programmatic Ads", "PPC (Google Ads)",
     "ORM Services", "E-Commerce", "Domain & Web Hosting", "Business Emails",
-    "Microsoft 365"
+    
   ];
 
   // <-- CHANGE 4: Submit function banaya (Jo alert nahi dega, bas UI change karega)

@@ -16,11 +16,7 @@ const servicesData = [
     description: 'We create and develop websites and web applications compatible with Windows, Mac OS X, and BSD/Unix platforms',
     Icon: Monitor,
   },
-  {
-    title: 'Cloud Technology Services',
-    description: 'We resell Google Cloud, Microsoft, and AWS technologies to help businesses grow, providing tailored solutions for our clients.',
-    Icon: Cloud,
-  },
+  
   {
     title: 'Logo Designing & Branding',
     description: 'Want your brand to captivate clients? We create simple, powerful visuals to ensure your brand’s unique identity. Let us help you.',

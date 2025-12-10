@@ -10,7 +10,6 @@ const Header = () => {
     // Navigation Data Structure
     const navItems = [
         { name: 'Home', path: '/' },
-        { name: 'About Us', path: '/about' },
         {
             name: 'Services',
             path: '#',
@@ -24,23 +23,8 @@ const Header = () => {
                 
             ],
         },
-        {
-            name: 'Products',
-            path: '#',
-            type: 'nested-dropdown',
-            // Sirf Microsoft 365 rakha hai jaisa tumne bola
-            items: [
-                {
-                    name: 'Microsoft 365',
-                    path: '#',
-                    subItems: [
-                        { name: 'Microsoft 365 Basic', path: '/products/ms365-basic' },
-                        { name: 'Microsoft 365 Standard', path: '/products/ms365-standard' },
-                        { name: 'Microsoft 365 Premium', path: '/products/ms365-premium' },
-                    ],
-                },
-            ],
-        },
+        { name: 'About Us', path: '/about' },
+        
         { name: 'Contact Us', path: '/contact' },
     ];
 
