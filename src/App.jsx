@@ -76,10 +76,7 @@ const App = () => {
 
 
       ]
-    }, {
-      path: "/login",
-      element: <Login />
-    },
+    }
   ])
   return (
     <div>

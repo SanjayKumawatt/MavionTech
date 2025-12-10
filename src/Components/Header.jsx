@@ -135,16 +135,6 @@ const Header = () => {
                         ))}
                     </nav>
 
-                    {/* 3. Client Login Button */}
-                    <div className="hidden lg:flex items-center">
-                        <Link
-                            to="/login"
-                            className="flex items-center gap-2 px-6 py-2.5 rounded-full border border-slate-800 text-slate-800 font-semibold hover:bg-slate-800 hover:text-white transition-all duration-300"
-                        >
-                            Client Login
-                            <User className="w-4 h-4" />
-                        </Link>
-                    </div>
 
                     {/* Mobile Menu Button */}
                     <div className="lg:hidden flex items-center">
