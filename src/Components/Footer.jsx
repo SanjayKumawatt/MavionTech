@@ -20,7 +20,6 @@ const Footer = () => {
     { name: 'SEO & Branding', path: '/services/seo-branding' },
     { name: 'Domain & Web Hosting', path: '/services/hosting' },
     { name: 'Web Design & Development', path: '/services/web-dev' },
-    { name: 'Business Emails', path: '/services/business-emails' },
   ];
 
   return (

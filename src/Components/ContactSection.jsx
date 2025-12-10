@@ -25,7 +25,6 @@ const ContactSection = () => {
     "SEO & Branding",
     "Domain & Web Hosting",
     "Web Design & Development",
-    "Business Emails",
     
   ];
 

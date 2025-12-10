@@ -22,7 +22,7 @@ const ContactSection = () => {
   const requirementsList = [
     "Logo & Branding", "Website Design", "Web Development", "Mobile App Dev",
     "CRM Software", "Digital Strategy", "Programmatic Ads", "PPC (Google Ads)",
-    "ORM Services", "E-Commerce", "Domain & Web Hosting", "Business Emails",
+    "ORM Services", "E-Commerce", "Domain & Web Hosting", 
     
   ];
 

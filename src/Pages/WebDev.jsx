@@ -21,7 +21,6 @@ const WebDev = () => {
     { name: 'SEO & Branding', path: '/services/seo-branding' },
     { name: 'Domain & Web Hosting', path: '/services/hosting' },
     { name: 'Web Design & Development', path: '/services/web-dev', active: true },
-    { name: 'Business Emails', path: '/services/business-emails' },
   ];
 
   const features = [
